@@ -1,16 +1,9 @@
-# arcore_flutter_plugin_example
+# Assumptions:
+- Not to use the default camera application
+- Not to use an ML framework, or a backend
+- Utilize ARCore or something similar
 
-Demonstrates how to use the arcore_flutter_plugin plugin.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Issues:
+- Flutter doens't have official implementations for ARCore, so the flutter native interface had to be used.
+- Limited time on optimizing the algorithm used for detecting the contours and edges
+- Not enough time to implement realtime object creation, a lot of time was lost in making ARCore work with flutter and a fever to add to it.
